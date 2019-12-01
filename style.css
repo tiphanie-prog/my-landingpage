@@ -1,0 +1,78 @@
+/*Colors and fonts*/
+
+body {
+	background-color: #F7F9FC;
+	color: #7ECE90;
+	font-family: 'Bitter', 'Be Vietnam', sans-serif;
+	font-size: 37px;
+	font-weight: lighter;
+	
+     }
+
+h1, h2, h3, h4 {
+	color: #707A96;
+	font-size: 32px
+	font-weight: 700;
+    }
+
+h5{
+	color: #8F7645;
+	font-size: 16px;
+	font-weight: lighter;
+	font-weight: 500;
+	}
+/* Custom design with class*/
+
+.container {
+	margin: 400px ;
+	width: 700px
+}
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+	#container
+
+	{
+		width: 100%
+		padding:0px;
+	}
+
+	#card-white
+	{width: 100%;
+	}
+}
+
+@media(max-width: 767px)
+{
+	#container
+	{
+		width:100%;
+		padding: 0px;
+	}
+	#card-white
+	{
+		width: 100%
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+
+
+
+
+
+
